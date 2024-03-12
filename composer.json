@@ -1,0 +1,20 @@
+{
+  "name": "a-solutions/custom-payment-gateway",
+  "description": "This is a sample module to demonstrate Custom Payment integration with Magento 2.4.6",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "^2.4.6"
+  },
+  "license": [
+      "OSL-3.0",
+      "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "ASolutions\\CustomPaymentGateway\\": ""
+    }
+  }
+}
